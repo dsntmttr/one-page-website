@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-content {
+    margin:0!important;
+    background: url(../img/pustyniahighres.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 560px;
+}
+footer {
+    -webkit-box-shadow: 0 0 28px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 28px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 0 28px 0 rgba(0,0,0,0.75);
+    z-index: 2;
+    height: 100%;
+    background-color: #111111;
+}
+footer {
+    margin-top: -50px;
+    width: 100%;
+    height: 50px;
+}
+footer .container {
+    height: 100%;
+}
+footer .copy {
+    min-height: 50px;
+}
+footer .copy span {
+    display: block;
+    padding: 15px 0;
+    color: #777777;
+    font-weight: 700;
+}
+.info {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding: 70px 0;
+    margin-top: 20%;
+}
+.back-button {
+    border-color: #111111;
+    background-color: transparent;
+    color: #111111;
+    border-radius: 0;
+
+}
+.back-button:hover,
+.back-button:focus {
+    border-color: transparent;
+    background-color: #111111;
+    color: #FFFFFF;
+
+}
+.message-container {
+    position: relative;
+    top: 80%;
+}
+.message {
+    color: #111111;
+    font-size: 22px;
+    font-weight: 700;
+}
+@media (min-width: 480px) and (max-width: 767px){
+    .main-content {
+        min-height: 670px!important;
+    }
+    .message-container {
+        top: 78%!important;
+    }
+}
+
+@media (max-width: 500px) {
+    .back-button {
+        font-size: 16px!important;
+    }
+}
+@media (max-width: 767px) {
+    .main-content {
+        background: url(../img/pustynialowres.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .message-container {
+        top: 70%;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .main-content {
+        min-height: 720px!important;
+    }
+}
+@media (min-width: 1200px) {
+    .main-content {
+        background: url(../img/pustyniamaxres.jpg) no-repeat left center;
+        background-size: cover;
+    }
+    .message-container {
+        top: 75%;
+    }
+}
